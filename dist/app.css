@@ -1,0 +1,102 @@
+.navbar {
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  z-index: 100;
+  border: none;
+  clear: both;
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.bottom_header .nav_voice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom_header ul li {
+  color: lightgrey;
+  list-style: none;
+  padding: 20px;
+  font-size: 18.2px;
+}
+
+.image img {
+  transform: translate(-10%);
+}
+
+.title {
+  position: absolute;
+  color: white;
+  top: 100%;
+  font-size: 20.02px;
+  left: 50%;
+  list-style: none;
+}
+
+.title .jumb_list {
+  position: absolute;
+  color: white;
+  top: 100%;
+  font-size: 20.02px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.title #btn {
+  position: absolute;
+  color: white;
+  top: 100%;
+  font-size: 20.02px;
+  margin-top: 10px;
+  padding: 10px 70px 10px 0px;
+  background-color: grey;
+}
+
+.jumb_list2 {
+  position: absolute;
+  color: white;
+  top: 100%;
+  font-size: 20.02px;
+  left: 90%;
+  font-size: 28px;
+  list-style: none;
+  background-color: black;
+  padding: 30px 150px 20px 5px;
+}
+
+.jumb_list2 span {
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin-top: 20px;
+}
+
+header {
+  background-color: black;
+}
+
+header .top_header {
+  min-height: 25px;
+  float: right;
+  color: lightgrey;
+  height: 45px;
+}
+
+header .top_header .navbar_menu li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+}
+
